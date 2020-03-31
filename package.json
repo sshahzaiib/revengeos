@@ -1,0 +1,68 @@
+{
+  "name": "dexwallet-website",
+  "description": "A react starting point using GatsbyJS",
+  "version": "2.0.1",
+  "author": "Parminder Klair",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perminder-klair/kickoff-gatsbyjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/perminder-klair/kickoff-gatsbyjs/issues"
+  },
+  "homepage": "https://github.com/perminder-klair/kickoff-gatsbyjs#readme",
+  "scripts": {
+    "start": "npm run develop",
+    "develop": "gatsby develop --no-cache",
+    "serve": "gatsby serve",
+    "build": "gatsby build",
+    "lint": "eslint --ignore-path .gitignore \"src/**/*.{js,jsx}\"",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^2.3.3",
+    "gatsby-image": "^2.0.35",
+    "gatsby-plugin-google-analytics": "^2.0.18",
+    "gatsby-plugin-manifest": "^2.0.25",
+    "gatsby-plugin-mixpanel": "^3.1.0",
+    "gatsby-plugin-nprogress": "^2.0.10",
+    "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-react-helmet": "^3.0.11",
+    "gatsby-plugin-remove-serviceworker": "^1.0.0",
+    "gatsby-plugin-sharp": "^2.0.32",
+    "gatsby-plugin-styled-components": "^3.0.7",
+    "gatsby-source-filesystem": "^2.0.28",
+    "gatsby-transformer-sharp": "^2.1.17",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-ga": "^2.7.0",
+    "react-helmet": "^5.2.0",
+    "react-icons": "^3.9.0",
+    "react-simple-image-slider": "^1.0.3",
+    "react-slideshow-image": "^1.4.0",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "10.0.1",
+    "babel-plugin-styled-components": "^1.10.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "prettier": "^1.16.1",
+    "pretty-quick": "^1.10.0"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "gatsbyjs",
+    "javascript",
+    "graphql",
+    "graphql",
+    "reactjs",
+    "boilerplate"
+  ]
+}
